@@ -1,0 +1,32 @@
+{
+  "name": "opxcore/request-interface",
+  "description": "The OpxCore request interface.",
+  "keywords": [
+    "opxcore",
+    "request",
+    "interface"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://opxcore.com",
+  "support": {
+    "issues": "https://github.com/opxcore/request-interface/issues",
+    "source": "https://github.com/opxcore/request-interface"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\Request\\Interfaces\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
